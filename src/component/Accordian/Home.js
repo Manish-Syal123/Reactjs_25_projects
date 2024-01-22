@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import data from "../Dumydata/data";
+import data from "./data";
 
 const Home = () => {
   const [selected, setSelected] = useState(null);
