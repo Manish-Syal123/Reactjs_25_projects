@@ -1,0 +1,25 @@
+input {
+  background-color: rgb(160, 34, 180);
+  width: 220px;
+  height: 23px;
+  border-radius: 20px;
+  border: none;
+  color: wheat;
+  box-shadow: 1px 1px 10px 3px blueviolet;
+  padding: 5px;
+}
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+button {
+  background-color: black;
+  color: white;
+  box-shadow: 1px 1px 7px 1px rgb(28, 28, 28);
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border: none;
+  cursor: pointer;
+  padding: 6.8px;
+  margin-left: 2rem;
+}
