@@ -12,7 +12,7 @@ input {
   color: white;
   opacity: 1;
 }
-button {
+.generate-button {
   background-color: black;
   color: white;
   box-shadow: 1px 1px 7px 1px rgb(28, 28, 28);

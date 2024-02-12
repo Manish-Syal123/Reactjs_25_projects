@@ -26,6 +26,7 @@ const QRCodeGenerator = () => {
         <button
           disabled={Input && Input.trim() !== "" ? false : true}
           onClick={handleGenerate}
+          className="generate-button"
         >
           Generate
         </button>
