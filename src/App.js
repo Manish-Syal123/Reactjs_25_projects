@@ -13,13 +13,16 @@ import TabTest from "./component/CustomTabs/tab-test";
 import ModalTest from "./component/Custom-Model/ModalTest";
 import GitHubProfileFinder from "./component/GitHub-Profile-Finder";
 import SearchAutocomplete from "./component/Search-AutoComplete";
+import TickTacToe from "./component/Tick-Tac-Toe";
 function App() {
   return (
     <div className="App">
       {/* Accordian component */}
       {/* <Home /> */}
+
       {/* Random color generator */}
       {/* <RandomColor /> */}
+
       {/* Star-Rating component */}
       {/* <StarRating noOfStars={10} /> */}
 
@@ -55,7 +58,10 @@ function App() {
       {/* <GitHubProfileFinder /> */}
 
       {/* Autocomplete search results */}
-      <SearchAutocomplete />
+      {/* <SearchAutocomplete /> */}
+
+      {/* Tick Tac To Game */}
+      <TickTacToe />
     </div>
   );
 }
