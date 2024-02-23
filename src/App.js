@@ -16,6 +16,7 @@ import SearchAutocomplete from "./component/Search-AutoComplete";
 import TickTacToe from "./component/Tick-Tac-Toe";
 import FeatureFlags from "./component/Feature-Flag";
 import FeatureFlagGlobalState from "./component/Feature-Flag/context";
+import UseFetchHookTest from "./component/Use-Fetch/test";
 function App() {
   return (
     <div className="App">
@@ -66,9 +67,12 @@ function App() {
       {/* <TickTacToe /> */}
 
       {/* Feature flag implementation */}
-      <FeatureFlagGlobalState>
+      {/* <FeatureFlagGlobalState>
         <FeatureFlags />
-      </FeatureFlagGlobalState>
+      </FeatureFlagGlobalState> */}
+
+      {/* useFetch custom Hook */}
+      <UseFetchHookTest />
     </div>
   );
 }
