@@ -21,6 +21,7 @@ import UseOnclickOutsideTest from "./component/Use-Outside-Click/test";
 import UseWindowResizeTest from "./component/Use-Window-Resize/test";
 import ScrollToTopAndBottom from "./component/Scroll-To-Top-and-Bottom/ScrollToTopAndBottom";
 import ScrollToSection from "./component/Scroll-To-Section/ScrollToSection";
+import PaginationTest from "./component/pagination/PaginationTest";
 function App() {
   return (
     <div className="App">
@@ -88,7 +89,10 @@ function App() {
       {/* <ScrollToTopAndBottom /> */}
 
       {/* Scroll to particular section/page  */}
-      <ScrollToSection />
+      {/* <ScrollToSection /> */}
+
+      {/* Pagination Feature */}
+      <PaginationTest />
     </div>
   );
 }
