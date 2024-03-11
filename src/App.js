@@ -22,6 +22,7 @@ import UseWindowResizeTest from "./component/Use-Window-Resize/test";
 import ScrollToTopAndBottom from "./component/Scroll-To-Top-and-Bottom/ScrollToTopAndBottom";
 import ScrollToSection from "./component/Scroll-To-Section/ScrollToSection";
 import PaginationTest from "./component/pagination/PaginationTest";
+import DigitalClock from "./component/Digital-Clock/DigitalClock";
 function App() {
   return (
     <div className="App">
@@ -92,7 +93,10 @@ function App() {
       {/* <ScrollToSection /> */}
 
       {/* Pagination Feature */}
-      <PaginationTest />
+      {/* <PaginationTest /> */}
+
+      {/* Digital click in text format only */}
+      <DigitalClock />
     </div>
   );
 }
