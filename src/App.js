@@ -23,6 +23,11 @@ import ScrollToTopAndBottom from "./component/Scroll-To-Top-and-Bottom/ScrollToT
 import ScrollToSection from "./component/Scroll-To-Section/ScrollToSection";
 import PaginationTest from "./component/pagination/PaginationTest";
 import DigitalClock from "./component/Digital-Clock/DigitalClock";
+import StepProgressBar from "./component/Step-Progress-Bar/StepProgressBar";
+import RandomQuoteGenerator from "./component/Random-Quote-Generator/RandomQuoteGenerator";
+import ToolTip from "./component/Tool-Tip/ToolTip";
+import ToolTiptest from "./component/Tool-Tip/ToolTiptest";
+import CurrencyConverter from "./component/Currency-Converter/CurrencyConverter";
 function App() {
   return (
     <div className="App">
@@ -96,7 +101,16 @@ function App() {
       {/* <PaginationTest /> */}
 
       {/* Digital click in text format only */}
-      <DigitalClock />
+      {/* <DigitalClock /> */}
+
+      {/* Step progress Bar */}
+      {/* <StepProgressBar /> */}
+
+      {/* <RandomQuoteGenerator /> */}
+
+      {/* <ToolTiptest /> */}
+
+      <CurrencyConverter />
     </div>
   );
 }
