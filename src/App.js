@@ -28,6 +28,7 @@ import RandomQuoteGenerator from "./component/Random-Quote-Generator/RandomQuote
 import ToolTip from "./component/Tool-Tip/ToolTip";
 import ToolTiptest from "./component/Tool-Tip/ToolTiptest";
 import CurrencyConverter from "./component/Currency-Converter/CurrencyConverter";
+import FilterProducts from "./component/Filter-Products/FilterProducts";
 function App() {
   return (
     <div className="App">
@@ -110,7 +111,10 @@ function App() {
 
       {/* <ToolTiptest /> */}
 
-      <CurrencyConverter />
+      {/* <CurrencyConverter /> */}
+
+      {/* Created Filter productes based on their Categories */}
+      <FilterProducts />
     </div>
   );
 }
