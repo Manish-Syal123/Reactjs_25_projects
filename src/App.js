@@ -29,6 +29,7 @@ import ToolTip from "./component/Tool-Tip/ToolTip";
 import ToolTiptest from "./component/Tool-Tip/ToolTiptest";
 import CurrencyConverter from "./component/Currency-Converter/CurrencyConverter";
 import FilterProducts from "./component/Filter-Products/FilterProducts";
+import Tipcalculator from "./Tip-Calculator/Tipcalculator";
 function App() {
   return (
     <div className="App">
@@ -114,7 +115,9 @@ function App() {
       {/* <CurrencyConverter /> */}
 
       {/* Created Filter productes based on their Categories */}
-      <FilterProducts />
+      {/* <FilterProducts /> */}
+
+      <Tipcalculator />
     </div>
   );
 }
