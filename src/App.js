@@ -30,6 +30,7 @@ import ToolTiptest from "./component/Tool-Tip/ToolTiptest";
 import CurrencyConverter from "./component/Currency-Converter/CurrencyConverter";
 import FilterProducts from "./component/Filter-Products/FilterProducts";
 import Tipcalculator from "./Tip-Calculator/Tipcalculator";
+import MusicPlayer from "./component/MusicPlayer/MusicPlayer";
 function App() {
   return (
     <div className="App">
@@ -117,7 +118,9 @@ function App() {
       {/* Created Filter productes based on their Categories */}
       {/* <FilterProducts /> */}
 
-      <Tipcalculator />
+      {/* <Tipcalculator /> */}
+
+      <MusicPlayer />
     </div>
   );
 }
