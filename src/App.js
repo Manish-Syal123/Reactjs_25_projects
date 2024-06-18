@@ -31,6 +31,7 @@ import CurrencyConverter from "./component/Currency-Converter/CurrencyConverter"
 import FilterProducts from "./component/Filter-Products/FilterProducts";
 import Tipcalculator from "./Tip-Calculator/Tipcalculator";
 import MusicPlayer from "./component/MusicPlayer/MusicPlayer";
+import CustomProgressBar from "./component/Custon_Progress_Bar/CustomProgressBar";
 function App() {
   return (
     <div className="App">
@@ -120,7 +121,9 @@ function App() {
 
       {/* <Tipcalculator /> */}
 
-      <MusicPlayer />
+      {/* <MusicPlayer /> */}
+
+      <CustomProgressBar />
     </div>
   );
 }
