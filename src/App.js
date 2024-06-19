@@ -32,6 +32,7 @@ import FilterProducts from "./component/Filter-Products/FilterProducts";
 import Tipcalculator from "./Tip-Calculator/Tipcalculator";
 import MusicPlayer from "./component/MusicPlayer/MusicPlayer";
 import CustomProgressBar from "./component/Custon_Progress_Bar/CustomProgressBar";
+import BMICalculator from "./component/BMI_Calculator/BMICalculator";
 function App() {
   return (
     <div className="App">
@@ -123,7 +124,9 @@ function App() {
 
       {/* <MusicPlayer /> */}
 
-      <CustomProgressBar />
+      {/* <CustomProgressBar /> */}
+
+      <BMICalculator />
     </div>
   );
 }
