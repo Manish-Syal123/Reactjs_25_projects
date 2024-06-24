@@ -36,6 +36,7 @@ import BMICalculator from "./component/BMI_Calculator/BMICalculator";
 import ButtonRippleEffect from "./component/Button-Ripple-Effect/ButtonRippleEffect";
 import DragDrop from "./component/Drag_And_Drop/DragDrop";
 import FormValidation from "./component/Form-Validation/FormValidation";
+import FileUpload from "./component/File-Upload/FileUpload";
 function App() {
   return (
     <div className="App">
@@ -135,7 +136,9 @@ function App() {
 
       {/* <DragDrop /> */}
 
-      <FormValidation />
+      {/* <FormValidation /> */}
+
+      <FileUpload />
     </div>
   );
 }
