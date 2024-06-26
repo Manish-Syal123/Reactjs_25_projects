@@ -37,6 +37,7 @@ import ButtonRippleEffect from "./component/Button-Ripple-Effect/ButtonRippleEff
 import DragDrop from "./component/Drag_And_Drop/DragDrop";
 import FormValidation from "./component/Form-Validation/FormValidation";
 import FileUpload from "./component/File-Upload/FileUpload";
+import QuizApp from "./component/Quiz-App/QuizApp";
 function App() {
   return (
     <div className="App">
@@ -138,7 +139,9 @@ function App() {
 
       {/* <FormValidation /> */}
 
-      <FileUpload />
+      {/* <FileUpload /> */}
+
+      <QuizApp />
     </div>
   );
 }
