@@ -38,6 +38,7 @@ import DragDrop from "./component/Drag_And_Drop/DragDrop";
 import FormValidation from "./component/Form-Validation/FormValidation";
 import FileUpload from "./component/File-Upload/FileUpload";
 import QuizApp from "./component/Quiz-App/QuizApp";
+import NestedComments from "./component/Nested-Comments/NestedComments";
 function App() {
   return (
     <div className="App">
@@ -141,7 +142,9 @@ function App() {
 
       {/* <FileUpload /> */}
 
-      <QuizApp />
+      {/* <QuizApp /> */}
+
+      <NestedComments />
     </div>
   );
 }
